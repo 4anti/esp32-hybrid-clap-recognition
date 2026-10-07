@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Clap Lab</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!--
+    THESIS: Night console, live CRT window. Speakers mute when a take is armed so the bedroom mic does not hear the PC. Refuses mill-aluminum bench plates and SaaS cards.
+    OWN-WORLD: Cool gray CD-ROM bevels, teal phosphor CRT, amber lamp jewels, oxide record. Chivo for panel type, Azeret Mono for readouts.
+    STORY: Connect the ESP32, keep listen off while labeling, slam a class, save the WAV, set the chandelier white.
+    FIRST VIEWPORT: Console fills the viewport. CRT waveform is the postcard. Tab keys Capture / Lamp / Takes depress into the bay. Listen jewel is off by default.
+    FORM: CD-ROM chrome navigation (seed e0712c2b, CD-ROM challenger). Raises: DEPRESS TOGGLES, MUTE-ON-RECORD, TEST-STRIP TEMP.
+    FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+  -->
+
+  <div class="shell">
+    <div class="console" id="plate">
+      <header class="bezel">
+        <div class="name">
+          <h1>Clap Lab</h1>
+          <p class="serial">INMP441 · local Tuya 3.5 · bedroom LAN</p>
+        </div>
+        <form class="link" id="connect-form" autocomplete="on">
+          <label>
+            ESP32
+            <input id="esp-ip" name="esp" type="text" spellcheck="false" placeholder="clap.local or device IP" />
+          </label>
+          <label>
+            Pass
+            <input id="esp-pass" name="pass" type="password" autocomplete="current-password" maxlength="32" />
+          </label>
+          <button type="submit" id="connect-btn">Connect</button>
+        </form>
+      </header>
+
+      <section class="meters" aria-label="Instrument state">
+        <div class="meter" data-key="wifi">
+          <span class="meter__label">Wi-Fi</span>
+          <span class="flag" id="m-wifi"><span class="flag__slide">—</span></span>
+        </div>
+        <div class="meter" data-key="tuya">
+          <span class="meter__label">Tuya</span>
+          <span class="flag" id="m-tuya"><span class="flag__slide">—</span></span>
+        </div>
+        <div class="meter" data-key="i2s">
+          <span class="meter__label">I2S</span>
+          <span class="flag" id="m-i2s"><span class="flag__slide">—</span></span>
+        </div>
+        <div class="meter" data-key="lamp">
+          <span class="meter__label">Lamp</span>
+          <span class="flag" id="m-lamp"><span class="flag__slide">—</span></span>
+        </div>
+        <div class="meter meter--read">
+          <span class="meter__label">Heap</span>
+          <span class="readout" id="m-heap">—</span>
+        </div>
+        <div class="meter meter--read">
+          <span class="meter__label">Arm</span>
+          <span class="readout" id="m-arm">—</span>
+        </div>
+        <div class="meter meter--read">
+          <span class="meter__label">Link</span>
+          <span class="readout" id="m-link">idle</span>
+        </div>
+      </section>
+
+      <section class="crt" aria-label="Live room">
+        <div class="crt__frame">
+          <canvas id="wave" width="1280" height="360"></canvas>
+          <p class="crt__park" id="park">CRT parked. Connect with Serial <code>lab pass=</code>. Speakers stay off until you press Listen.</p>
+          <div class="scan" aria-hidden="true"></div>
+        </div>
+        <div class="crt__row">
+          <div class="vu" aria-label="Peak">
+            <div class="vu__ticks" aria-hidden="true"></div>
+            <div class="vu__needle" id="vu-needle"></div>
+            <span class="vu__label">VU</span>
+          </div>
+          <button type="button" class="jewel" id="listen-arm" aria-pressed="false">
+            <span class="jewel__lamp" aria-hidden="true"></span>
+            <span class="jewel__copy">
+              <strong>Listen</strong>
+              <em id="listen-hint">speakers off</em>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <nav class="keys" role="tablist" aria-label="Console bays">
+        <button type="button" class="key is-in" role="tab" aria-selected="true" data-bay="capture" id="tab-capture">Capture</button>
+        <button type="button" class="key" role="tab" aria-selected="false" data-bay="lamp" id="tab-lamp">Lamp</button>
+        <button type="button" class="key" role="tab" aria-selected="false" data-bay="takes" id="tab-takes">Takes</button>
+      </nav>
+
+      <div class="bays">
+        <section class="bay is-open" id="bay-capture" role="tabpanel" data-bay="capture">
+          <div class="bay__inner">
+            <div class="deck">
+              <div class="listen">
+                <label class="gain">
+                  Listen gain
+                  <input id="gain" type="range" min="1" max="8" step="1" value="4" />
+                  <span id="gain-val">4×</span>
+                </label>
+                <p class="gain__hint">Changes playback volume only. New firmware records raw microphone samples at a fixed gain.</p>
+                <label class="gain">
+                  Log gate
+                  <input id="arm-mul" type="range" min="2" max="24" step="1" value="8" aria-describedby="arm-hint" />
+                  <span id="arm-val">8</span>
+                </label>
+                <p class="gain__hint" id="arm-hint">Quiet-room noise times this number sets the candidate log gate. Leave at 8 to start. The Arm meter shows that gate. Raw recordings include sounds that the detector misses.</p>
+                <p class="locknote">Speakers mute during recording. Record isolated claps and finger snaps with quiet gaps, then record double gestures in separate takes. Include different distances, directions, and room noise. Detector events are predictions; verify the actual sounds before using them as training labels.</p>
+              </div>
+              <div class="paddles" role="group" aria-label="Record class">
+                <button type="button" class="paddle" data-class="clap_far" id="pad-clap">
+                  <span class="paddle__key">1</span>
+                  <span class="paddle__name">Clap</span>
+                  <span class="paddle__state" data-state>idle</span>
+                </button>
+                <button type="button" class="paddle" data-class="finger_snap" id="pad-snap">
+                  <span class="paddle__key">2</span>
+                  <span class="paddle__name">Finger snap</span>
+                  <span class="paddle__state" data-state>idle</span>
+                </button>
+                <button type="button" class="paddle" data-class="tongue_click" id="pad-tongue">
+                  <span class="paddle__key">3</span>
+                  <span class="paddle__name">Tongue click</span>
+                  <span class="paddle__state" data-state>idle</span>
+                </button>
+                <button type="button" class="paddle" data-class="door_slam" id="pad-door">
+                  <span class="paddle__key">4</span>
+                  <span class="paddle__name">Door slam</span>
+                  <span class="paddle__state" data-state>idle</span>
+                </button>
+                <button type="button" class="paddle" data-class="other" id="pad-other">
+                  <span class="paddle__key">5</span>
+                  <span class="paddle__name">Room noise / other</span>
+                  <span class="paddle__state" data-state>idle</span>
+                </button>
+              </div>
+            </div>
+            <section class="rail" aria-label="Detector events">
+              <div class="ai-readout" aria-label="AI sound recognition">
+                <p id="ai-state" aria-live="polite">AI status appears when the device connects.</p>
+                <label>Noise <progress id="ai-noise" max="1" value="0"></progress><span id="ai-noise-score">—</span></label>
+                <label>Clap <progress id="ai-clap" max="1" value="0"></progress><span id="ai-clap-score">—</span></label>
+                <label>Finger snap <progress id="ai-snap" max="1" value="0"></progress><span id="ai-snap-score">—</span></label>
+              </div>
+              <div class="rail__head">
+                <h2>Event rail</h2>
+                <p>Device event time, preserved with its audio sample position. Mark a miss for later review.</p>
+              </div>
+              <ol class="punch" id="rail"></ol>
+            </section>
+            <footer class="tray">
+              <button type="button" class="mark" id="save-take" disabled>Save take</button>
+              <button type="button" class="mark" id="mark" disabled>Mark miss</button>
+              <p class="session" id="session-line">Click a sound button to start a take. Click it again or press Save take to finish. Speakers stay muted while recording.</p>
+              <p class="counts" id="counts">clap_far 0 · finger_snap 0 · tongue_click 0 · door_slam 0 · other 0</p>
+            </footer>
+          </div>
+        </section>
+
+        <section class="bay" id="bay-lamp" role="tabpanel" hidden data-bay="lamp">
+          <div class="bay__inner">
+            <div class="lamp-bay">
+              <div class="lamp-levers">
+                <button type="button" class="lever" id="lamp-on">On</button>
+                <button type="button" class="lever" id="lamp-off">Off</button>
+              </div>
+              <label class="gain">
+                Brightness
+                <input id="lamp-bri" type="range" min="10" max="1000" step="10" value="1000" />
+                <span id="lamp-bri-val">100%</span>
+              </label>
+              <label class="gain">
+                White temp
+                <input id="lamp-temp" type="range" min="0" max="1000" step="10" value="500" />
+                <span id="lamp-temp-val">4140 K</span>
+              </label>
+              <div class="strip" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <p class="locknote" id="lamp-note">White mode over local Tuya 3.5. Brightness 10–1000. Temp 0 is warm, 1000 is cool. Double gestures use the last saved white. Clap and finger-snap recognition depend on the firmware and trained model.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="bay" id="bay-takes" role="tabpanel" hidden data-bay="takes">
+          <div class="bay__inner">
+            <div class="takes-head">
+              <h2>Saved takes</h2>
+              <button type="button" class="mark" id="refresh-takes">Refresh</button>
+            </div>
+            <p class="locknote">Save drains pending uploads and checks raw sample continuity before writing the WAV. Legacy audio, interrupted streams, and upload failures stay available for review but cannot become training-ready takes. Each folder under <code>data/sessions</code> includes audio, device-timed events, and capture integrity. Delete removes the folder.</p>
+            <ul class="takes" id="takes"></ul>
+            <p class="session" id="takes-empty">No takes yet.</p>
+            <audio id="take-player" controls class="take-player"></audio>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# Tested with CPython 3.10 on Windows. Install the CPU PyTorch wheel first:
+# python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+numpy==1.26.2
+scipy==1.15.3
+torch==2.8.0
+pytest==9.1.1

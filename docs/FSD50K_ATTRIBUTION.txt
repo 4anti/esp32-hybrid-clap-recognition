@@ -1,0 +1,393 @@
+FSD50K subset attribution
+Dataset: https://zenodo.org/records/4060432
+Fonseca et al. (2022), FSD50K: an open dataset of human-labeled sound events, IEEE/ACM TASLP 30:829-852.
+Original audio remains under each uploader's indicated license.
+
+audio/115234.wav | Warsaw-concert-applause.wav | xserra | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/xserra/sounds/115234/
+audio/167688.wav | Applause - Medium Room, Small Crowd.wav | R_Auten02 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/R_Auten02/sounds/167688/
+audio/190696.wav | Jaleo - Electricitat | barcelonetasonora | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/barcelonetasonora/sounds/190696/
+audio/191999.wav | Applause 4 | VlatkoBlazek | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/VlatkoBlazek/sounds/191999/
+audio/195346.wav | clap_08.wav | Stumber | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Stumber/sounds/195346/
+audio/201203.wav | Syracuse Dome Cheering.wav | jjhouse4 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/jjhouse4/sounds/201203/
+audio/202498.wav | Small crowd cheering and clapping at party 2.wav | xtrsounder | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/xtrsounder/sounds/202498/
+audio/214989.wav | BaseballHitAndCrowdCheer.mp3 | AmishRob | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/AmishRob/sounds/214989/
+audio/233582.wav | Plane Edge540 Hannes Arch.wav | burkay | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/burkay/sounds/233582/
+audio/261617.wav | small_applause.wav | Sclolex | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Sclolex/sounds/261617/
+audio/268103.wav | Applause bravo _ Chinese  | ohmygod327 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ohmygod327/sounds/268103/
+audio/320278.wav | Hand Clap_05.wav | Vihaleipa | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Vihaleipa/sounds/320278/
+audio/340357.wav | Medium-Sized Indoor Crowd Clapping (full) | daehedon | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/daehedon/sounds/340357/
+audio/345042.wav | Bang with big echo | SamsterBirdies | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/SamsterBirdies/sounds/345042/
+audio/350714.wav | Cornell Big Cheer | Veridiansunrise | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Veridiansunrise/sounds/350714/
+audio/386902.wav | christmasbutbetter.wav | hatchetgirl | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/hatchetgirl/sounds/386902/
+audio/388042.wav | Clap.wav | Sami_Kullström | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Sami_Kullstr%C3%B6m/sounds/388042/
+audio/388274.wav | Slap in the face | Rodzuz | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Rodzuz/sounds/388274/
+audio/397010.wav | Crowd clapping inside a bar in Chile (Valparaiso) | felix.blume | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/felix.blume/sounds/397010/
+audio/400587.wav | Medium crowd cheering 01 | misjoc | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/misjoc/sounds/400587/
+audio/408601.wav | 25.Claps.wav | miguelab1998 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/miguelab1998/sounds/408601/
+audio/410868.wav | crowd_cheering_and_clapping.wav | djnicke | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/djnicke/sounds/410868/
+audio/429149.wav | Audience Clapping 2.wav | FoxZine | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/FoxZine/sounds/429149/
+audio/430046.wav | Crowd cheer.wav | BeeProductive | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/BeeProductive/sounds/430046/
+audio/47338.wav | Applause Church Light.wav | gelo_papas | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/gelo_papas/sounds/47338/
+audio/105380.wav | Snapping With the Finger Against a Ceramic Cup | DrZoom | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/DrZoom/sounds/105380/
+audio/105381.wav | Snapping With the Finger Against a Ceramic Cup | DrZoom | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/DrZoom/sounds/105381/
+audio/116796.wav | FingerSnaps (clean) 2.mp3 | jornywar | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jornywar/sounds/116796/
+audio/117117.wav | fingersnaps.wav | UncleSigmund | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/UncleSigmund/sounds/117117/
+audio/117648.wav | sw_FingerSnap.wav | jppi_Stu | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/jppi_Stu/sounds/117648/
+audio/140055.wav | Finger Snap | Autistic Lucario | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Autistic%20Lucario/sounds/140055/
+audio/147543.wav | Merriment.WAV | nickrave | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/nickrave/sounds/147543/
+audio/148092.wav | Jordan's Snaps 03.wav | jcchilds | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jcchilds/sounds/148092/
+audio/155799.wav | snapping his fingers | mario1298 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/mario1298/sounds/155799/
+audio/161268.wav | snaps.wav | Banes | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Banes/sounds/161268/
+audio/161326.wav | csettwav.wav | galambfagyi | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/galambfagyi/sounds/161326/
+audio/16451.wav | FingerSnaps.wav | kkz | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/kkz/sounds/16451/
+audio/189567.wav | finger click | brookmorgan | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/brookmorgan/sounds/189567/
+audio/216660.wav | Fingersnaps_95bpm.aif | ptp8ss | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ptp8ss/sounds/216660/
+audio/219289.wav | Finger Snap | mike_kim2724 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/mike_kim2724/sounds/219289/
+audio/233258.wav | Escaping downstairs | xavimuse | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/xavimuse/sounds/233258/
+audio/23447.wav | Clicking Fingers.MP3 | Percy Duke | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Percy%20Duke/sounds/23447/
+audio/235675.wav | finger snap.aif | gpenn76 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/gpenn76/sounds/235675/
+audio/241879.wav | Snapping Fingers.wav | rafael45 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/rafael45/sounds/241879/
+audio/256569.wav | Snaps.mp3 | sjnewton | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/sjnewton/sounds/256569/
+audio/263048.wav | Snap .wav | 13anicholson | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/13anicholson/sounds/263048/
+audio/265290.wav | FingerSnaps-loop_110bpm.wav | gblanke | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/gblanke/sounds/265290/
+audio/272114.wav | Percussion Snap | purpleducttapehat | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/purpleducttapehat/sounds/272114/
+audio/272174.wav | Clear Finger Snap | Unicornaphobist | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Unicornaphobist/sounds/272174/
+audio/275103.wav | Fingerflick.mp3 | Espinho123 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Espinho123/sounds/275103/
+audio/315839.wav | Finger Snap | gneube | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/gneube/sounds/315839/
+audio/327917.wav | Clicking Fingers | RuonVNiekerk | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/RuonVNiekerk/sounds/327917/
+audio/332603.wav | Finger Snaps | vckhaze | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/vckhaze/sounds/332603/
+audio/335026.wav | Finger-snap-uni.wav | HeraclitoPD | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/HeraclitoPD/sounds/335026/
+audio/33835.wav | SNAP.aif | donut | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/donut/sounds/33835/
+audio/342409.wav | Finger Click.wav | MarcusGraham325 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/MarcusGraham325/sounds/342409/
+audio/348509.wav | Finger Snaps | Dinky_Mixy | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Dinky_Mixy/sounds/348509/
+audio/367836.wav | Snapping Finger.wav | shutup_outcast | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/shutup_outcast/sounds/367836/
+audio/368784.wav | Fingersnap | uEffects | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/uEffects/sounds/368784/
+audio/369549.wav | Finger Snaps | JohnsonBrandEditing | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/JohnsonBrandEditing/sounds/369549/
+audio/369598.wav | Finger Snap (3 Takes) | EFlexTheSoundDesigner | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/EFlexTheSoundDesigner/sounds/369598/
+audio/370814.wav | finger_snap.wav | ruviyamin | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ruviyamin/sounds/370814/
+audio/386717.wav | Finger Snaps 2.WAV | DSISStudios | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/DSISStudios/sounds/386717/
+audio/386718.wav | Finger Snaps 1.WAV | DSISStudios | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/DSISStudios/sounds/386718/
+audio/387082.wav | Finger snap (recording) | TKhelkar | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/TKhelkar/sounds/387082/
+audio/387833.wav | Finger Snaps.wav | ryansitz | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ryansitz/sounds/387833/
+audio/388772.wav | FAST SNAPS.wav | ThatMisfit | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ThatMisfit/sounds/388772/
+audio/390473.wav | finger snap | Rodzuz | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Rodzuz/sounds/390473/
+audio/392115.wav | Snap of fingers | edton | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/edton/sounds/392115/
+audio/399830.wav | finger_snapping.wav | Radio_fragola_gorizia | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Radio_fragola_gorizia/sounds/399830/
+audio/406995.wav | Estalos de dedo.wav | Ezeek1 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Ezeek1/sounds/406995/
+audio/410990.wav | snapping.mp3 | chucklez22 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/chucklez22/sounds/410990/
+audio/414357.wav | Finger snapping.wav | KorolkoFF | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/KorolkoFF/sounds/414357/
+audio/414358.wav | Finger snapping Jazzy (two hands).wav | KorolkoFF | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/KorolkoFF/sounds/414358/
+audio/416960.wav | Snapping Fingers.mp3 | Yin_Yang_Jake007 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Yin_Yang_Jake007/sounds/416960/
+audio/417515.wav | Finger Snap_1Reverb_Selected.wav | DRFX | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/DRFX/sounds/417515/
+audio/425043.wav | snaps.wav | Deathstardude | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Deathstardude/sounds/425043/
+audio/425680.wav | snapping.mp3 | Camo1018 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Camo1018/sounds/425680/
+audio/425790.wav | Snap.wav | thatkellytrna | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/thatkellytrna/sounds/425790/
+audio/430814.wav | Kids finger clicks.wav | Ben Keaton | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Ben%20Keaton/sounds/430814/
+audio/52224.wav | Fingersnaps.wav | mookie182 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/mookie182/sounds/52224/
+audio/119848.wav | Penciltap.aif | kbnevel | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/kbnevel/sounds/119848/
+audio/153111.wav | bathroom close door.wav | victoriarey91 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/victoriarey91/sounds/153111/
+audio/180690.wav | ST_silverwareOnPlate_wPush-off.wav | ScreenplayTheater | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/ScreenplayTheater/sounds/180690/
+audio/201274.wav | Person Sneezing Sound Bit.wav | chrisbrowne626 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/chrisbrowne626/sounds/201274/
+audio/221518.wav | woman sneeze | Danieka | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Danieka/sounds/221518/
+audio/221786.wav | Tin Pot Hit loop 103bpm.wav | Puniho | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Puniho/sounds/221786/
+audio/238234.wav | StekaChampinjonerLjudAvFläkt_GIS_SWEDEN_140512.wav | gis_sweden | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/gis_sweden/sounds/238234/
+audio/112257.wav | YEAHclaps.mp3 | edbles | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/edbles/sounds/112257/
+audio/112285.wav | whoooclapclap.mp3 | edbles | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/edbles/sounds/112285/
+audio/120347.wav | slow clap.wav | cemagar | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/cemagar/sounds/120347/
+audio/123805.wav | clap for fred.wav | kendallbear | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/kendallbear/sounds/123805/
+audio/125415.wav | Clapping.wav | jyoung20 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jyoung20/sounds/125415/
+audio/131779.wav | VNMXCLP - Marker #16.wav | crispydinner | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/crispydinner/sounds/131779/
+audio/146353.wav | clap.wav | Sound1A | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Sound1A/sounds/146353/
+audio/147597.wav | never be clap.wav | kendallbear | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/kendallbear/sounds/147597/
+audio/148997.wav | Slap_2.wav | Adam_N | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Adam_N/sounds/148997/
+audio/151848.wav | Clapping.aif | carroll27 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/carroll27/sounds/151848/
+audio/160136.wav | Tunnel 2 Impulse-Response reverb closeby medium-pitch clap | jorickhoofd | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/jorickhoofd/sounds/160136/
+audio/161239.wav | Clappic - Epic Clap Ceremony Symbol Sound | qubodup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/qubodup/sounds/161239/
+audio/161240.wav | Clappic 2 - Epic Clap Ceremony Symbol Sound  | qubodup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/qubodup/sounds/161240/
+audio/161586.wav | IR clap small Hexagonic Chapel layered | jorickhoofd | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/jorickhoofd/sounds/161586/
+audio/164435.wav | Claps01 FF054.aif | martinimeniscus | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/martinimeniscus/sounds/164435/
+audio/164887.wav | Hotel_do_Mar_2012-16_Large_Triangular_Room_Clap_IR.wav | AlienXXX | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/AlienXXX/sounds/164887/
+audio/164888.wav | Hotel_do_Mar_2012-17_Large_Triangular_Room_Clap_IR.wav | AlienXXX | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/AlienXXX/sounds/164888/
+audio/169085.wav | Disco Clap | NenadSimic | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/NenadSimic/sounds/169085/
+audio/170786.wav | Toddler hey.WAV | esperar | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/esperar/sounds/170786/
+audio/175046.wav | emptyhand-07.wav | wuola | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/wuola/sounds/175046/
+audio/175054.wav | emptyhand-16.wav | wuola | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/wuola/sounds/175054/
+audio/175423.wav | Claps.aif | ajkerekes | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/ajkerekes/sounds/175423/
+audio/180777.wav | hand clap bedroom 6.wav | toiletrolltube | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/toiletrolltube/sounds/180777/
+audio/180778.wav | hand clap bedroom 5.wav | toiletrolltube | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/toiletrolltube/sounds/180778/
+audio/184833.wav | Crowd | Gauraa | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Gauraa/sounds/184833/
+audio/187671.wav | claps.flac | ondrosik | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/ondrosik/sounds/187671/
+audio/187963.wav | plonk.wav | stomachache | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/stomachache/sounds/187963/
+audio/188864.wav | handclaps.wav | plingativator | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/plingativator/sounds/188864/
+audio/189182.wav | Applause - 5/6 persons - 2 | Aiwha | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Aiwha/sounds/189182/
+audio/189189.wav | Applause - 5/6 persons - 3 | Aiwha | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Aiwha/sounds/189189/
+audio/190575.wav | clap3.wav | conradts | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/conradts/sounds/190575/
+audio/192229.wav | Shower Clap - Closed.wav | Ligidium | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Ligidium/sounds/192229/
+audio/192336.wav | Shower Clap - Open - Flattened.wav | Ligidium | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Ligidium/sounds/192336/
+audio/194263.wav | Claps Hard.wav | datwilightz | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/datwilightz/sounds/194263/
+audio/194264.wav | Clap 2 - Ultra Reverse Reverb.wav | datwilightz | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/datwilightz/sounds/194264/
+audio/194464.wav | Clap.wav | Agaxly | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Agaxly/sounds/194464/
+audio/198034.wav | The Aggressives Clap.wav | Fiditg | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Fiditg/sounds/198034/
+audio/202158.wav | Clap Percussion Loop.wav | ecfike | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ecfike/sounds/202158/
+audio/20738.wav | polite applause.wav | gadzooks | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/gadzooks/sounds/20738/
+audio/210802.wav | Chirping staircase | acs272 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/acs272/sounds/210802/
+audio/21180.wav | Clap2.aif | ramjac | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/ramjac/sounds/21180/
+audio/21182.wav | Clap4.aif | ramjac | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/ramjac/sounds/21182/
+audio/212464.wav | Plastic Reverb Claps 1 | unfa | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/unfa/sounds/212464/
+audio/213055.wav | clapping_alone02.mp3 | Taira Komori | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Taira%20Komori/sounds/213055/
+audio/213056.wav | clapping_alone01.mp3 | Taira Komori | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Taira%20Komori/sounds/213056/
+audio/219169.wav | clap_04.wav | Jagadamba | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Jagadamba/sounds/219169/
+audio/22807.wav | echo chamber.flac | Corsica_S | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Corsica_S/sounds/22807/
+audio/228363.wav | Crowd Clapping.wav | 18hiltc | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/18hiltc/sounds/228363/
+audio/228365.wav | Clap.wav | 18hiltc | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/18hiltc/sounds/228365/
+audio/231894.wav | clap8.wav | Godowan | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Godowan/sounds/231894/
+audio/231896.wav | clap6.wav | Godowan | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Godowan/sounds/231896/
+audio/238649.wav | fiveclaps_01.wav | xtrgamr | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/xtrgamr/sounds/238649/
+audio/239906.wav | Fat clap | jamesabdulrahman | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jamesabdulrahman/sounds/239906/
+audio/259164.wav | CRDN_KettleClap_034.wav | crispydinner | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/crispydinner/sounds/259164/
+audio/262978.wav | Audience_Laughing48.wav | Alcappuccino | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Alcappuccino/sounds/262978/
+audio/26554.wav | clp03.wav | altemark | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/altemark/sounds/26554/
+audio/26557.wav | clp06.wav | altemark | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/altemark/sounds/26557/
+audio/265604.wav | Clap 1 | Hard3eat | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Hard3eat/sounds/265604/
+audio/266081.wav | Snare Clap Loop 1 | Stereo Surgeon | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Stereo%20Surgeon/sounds/266081/
+audio/266766.wav | Clap 4 | Hard3eat | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Hard3eat/sounds/266766/
+audio/267930.wav | clapping.wav | anagar | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/anagar/sounds/267930/
+audio/269381.wav | forest impulse response_5.wav | lwdickens | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lwdickens/sounds/269381/
+audio/277411.wav | clap sample_rev.wav | xtrgamr | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/xtrgamr/sounds/277411/
+audio/28229.wav | Clap5.wav | HerbertBoland | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/HerbertBoland/sounds/28229/
+audio/28230.wav | Clap6.wav | HerbertBoland | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/HerbertBoland/sounds/28230/
+audio/29799.wav | 2.wav | stomachache | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/stomachache/sounds/29799/
+audio/31650.wav | applause.wav | ERH | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/ERH/sounds/31650/
+audio/330296.wav | A Clap | maycuddlepie | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/maycuddlepie/sounds/330296/
+audio/330941.wav | CLAP-MEOW.mp3 | tubbers | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/tubbers/sounds/330941/
+audio/338182.wav | Jimmy's 4x4 Hand Claps Comp | jimmygu3 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jimmygu3/sounds/338182/
+audio/341593.wav | clap.wav | dpsa | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/dpsa/sounds/341593/
+audio/34330.wav | hand clap comp.wav | marvman | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/marvman/sounds/34330/
+audio/347231.wav | clap.wav | BraveFrog | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/BraveFrog/sounds/347231/
+audio/351993.wav | 1388_PERC_CLAPS im FreifeldPhilDav_04.wav | davidmenke | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/davidmenke/sounds/351993/
+audio/351995.wav | 1388_PERC_CLAPS im FreifeldPhilDav_02.wav | davidmenke | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/davidmenke/sounds/351995/
+audio/353320.wav | 100 Distorto Drums_Oneshot_Clap 01.wav | gunnbladez | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/gunnbladez/sounds/353320/
+audio/35489.wav | applause 1.mp3 | Charel Sytze | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Charel%20Sytze/sounds/35489/
+audio/361672.wav | Non-Enthusiastic Clap.MP3 | FunWithSound | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/FunWithSound/sounds/361672/
+audio/361708.wav | Simple 2.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361708/
+audio/361733.wav | Simple 36.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361733/
+audio/365616.wav | Clapping.mp3 | Caitlin_100 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Caitlin_100/sounds/365616/
+audio/369525.wav | Balloon Pop Studio (3).wav | JohanDeecke | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/JohanDeecke/sounds/369525/
+audio/371625.wav | 226 - Acoustic Memory - SnapClap.wav | AcousticMemory | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/AcousticMemory/sounds/371625/
+audio/371657.wav | 229 - Acoustic Memory - Claps_03.wav | AcousticMemory | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/AcousticMemory/sounds/371657/
+audio/377390.wav | Clap_04.wav | SBAudio | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/SBAudio/sounds/377390/
+audio/377399.wav | Clap_09.wav | SBAudio | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/SBAudio/sounds/377399/
+audio/377779.wav | Handclap-06-six.aif | meisterleise | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/meisterleise/sounds/377779/
+audio/377782.wav | Handclap-03-two.aif | meisterleise | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/meisterleise/sounds/377782/
+audio/384141.wav | Hard clap 6.wav | hypernovajm | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/hypernovajm/sounds/384141/
+audio/384155.wav | Hard group 8.wav | hypernovajm | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/hypernovajm/sounds/384155/
+audio/387756.wav | Slap 11 | Jagadamba | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Jagadamba/sounds/387756/
+audio/388543.wav | Clap 02.wav | totalcult | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/totalcult/sounds/388543/
+audio/388544.wav | Clap 03.wav | totalcult | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/totalcult/sounds/388544/
+audio/393571.wav | 20170516 Applause in a small classical music recital | kijjaz | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/kijjaz/sounds/393571/
+audio/394351.wav | Clap_003.wav | jalastram | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/jalastram/sounds/394351/
+audio/394768.wav | clapping sound.mp3 | boldcity | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/boldcity/sounds/394768/
+audio/399666.wav | Clapping.MP3 | SoundsForHim | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/SoundsForHim/sounds/399666/
+audio/403356.wav | Rhythm_Clapping01.flac | corpocracy | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/corpocracy/sounds/403356/
+audio/404286.wav | 02.mp3 | thepianosup | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/thepianosup/sounds/404286/
+audio/404288.wav | 08.mp3 | thepianosup | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/thepianosup/sounds/404288/
+audio/404543.wav | Clap, Single, 16.wav | InspectorJ | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/InspectorJ/sounds/404543/
+audio/404545.wav | Clap, Single, 14.wav | InspectorJ | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/InspectorJ/sounds/404545/
+audio/409614.wav | Palmada | Pipe98x | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Pipe98x/sounds/409614/
+audio/417594.wav | Clap.wav | mendihola | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/mendihola/sounds/417594/
+audio/426680.wav | clapping sound made by me | LIONGIRL | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/LIONGIRL/sounds/426680/
+audio/428377.wav | 17-Palmadas..wav | sofi.om | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/sofi.om/sounds/428377/
+audio/428892.wav | clapping sound made by me2 | LIONGIRL | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/LIONGIRL/sounds/428892/
+audio/430716.wav | 20. Choque de manos .wav | juanj105 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/juanj105/sounds/430716/
+audio/432910.wav | clap.wav | Kyanite_ | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Kyanite_/sounds/432910/
+audio/56385.wav | 20080629.campeones.04.wav | dobroide | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/dobroide/sounds/56385/
+audio/63530.wav | clap.wav | florian_reinke | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/florian_reinke/sounds/63530/
+audio/68698.wav | HandClap.wav | mikaelfernstrom | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/mikaelfernstrom/sounds/68698/
+audio/68727.wav | SingleHandClap.wav | mikaelfernstrom | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/mikaelfernstrom/sounds/68727/
+audio/73088.wav | Hit basement 06.wav | LG | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/LG/sounds/73088/
+audio/73089.wav | Hit basement 07.wav | LG | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/LG/sounds/73089/
+audio/75374.wav | GTA4 clap.wav | jobro | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/jobro/sounds/75374/
+audio/76779.wav | Hand Clap.mp3 | DJ Burnham | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/DJ%20Burnham/sounds/76779/
+audio/7765.wav | Handclaps.wav | NoiseCollector | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/NoiseCollector/sounds/7765/
+audio/91690.wav | jdhardstk433.wav | zinzan_101 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/zinzan_101/sounds/91690/
+audio/109399.wav | finger snap 01.aiff | SoundCollectah | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/SoundCollectah/sounds/109399/
+audio/109400.wav | finger snap 02.aiff | SoundCollectah | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/SoundCollectah/sounds/109400/
+audio/169619.wav | UltimateFingerSnap.wav | stomachache | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/stomachache/sounds/169619/
+audio/177494.wav | snap_3.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177494/
+audio/177495.wav | snap_2.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177495/
+audio/177496.wav | snap_1.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177496/
+audio/177497.wav | Snap_1234.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177497/
+audio/177498.wav | snap_4.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177498/
+audio/177500.wav | snap_5.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177500/
+audio/177501.wav | snap_12.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177501/
+audio/177503.wav | snap_10.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177503/
+audio/177504.wav | snap_9.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177504/
+audio/177505.wav | snap_8.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177505/
+audio/177506.wav | snap_7.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177506/
+audio/177507.wav | snap_6.wav | Snapper4298 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Snapper4298/sounds/177507/
+audio/235276.wav | snap1.wav | Godowan | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Godowan/sounds/235276/
+audio/235277.wav | snap2.wav | Godowan | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Godowan/sounds/235277/
+audio/235283.wav | snap4.wav | Godowan | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Godowan/sounds/235283/
+audio/325262.wav | Finger click 4.wav | Adam_N | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Adam_N/sounds/325262/
+audio/325263.wav | Finger click 3.wav | Adam_N | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Adam_N/sounds/325263/
+audio/325264.wav | Finger click 2.wav | Adam_N | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Adam_N/sounds/325264/
+audio/325265.wav | Finger click 1.wav | Adam_N | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Adam_N/sounds/325265/
+audio/325266.wav | Finger click 5.wav | Adam_N | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Adam_N/sounds/325266/
+audio/346786.wav | fingersnap11.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346786/
+audio/346787.wav | fingersnap10.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346787/
+audio/346788.wav | fingersnap1.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346788/
+audio/346789.wav | fingersnap0.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346789/
+audio/346790.wav | fingersnap15.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346790/
+audio/346791.wav | fingersnap14.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346791/
+audio/346792.wav | fingersnap13.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346792/
+audio/346793.wav | fingersnap12.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346793/
+audio/346794.wav | fingersnap17.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346794/
+audio/346795.wav | fingersnap16.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346795/
+audio/346796.wav | fingersnap4.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346796/
+audio/346797.wav | fingersnap5.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346797/
+audio/346798.wav | fingersnap27.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346798/
+audio/346799.wav | fingersnap3.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346799/
+audio/346800.wav | fingersnap8.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346800/
+audio/346802.wav | fingersnap6.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346802/
+audio/346803.wav | fingersnap7.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346803/
+audio/346804.wav | fingersnap20.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346804/
+audio/346805.wav | fingersnap2.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346805/
+audio/346806.wav | fingersnap19.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346806/
+audio/346807.wav | fingersnap18.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346807/
+audio/346808.wav | fingersnap24.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346808/
+audio/346809.wav | fingersnap23.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346809/
+audio/346810.wav | fingersnap22.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346810/
+audio/346811.wav | fingersnap21.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346811/
+audio/346812.wav | fingersnap26.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346812/
+audio/346813.wav | fingersnap25.wav | Dizzy Banjo | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Dizzy%20Banjo/sounds/346813/
+audio/361743.wav | Real Snap 12.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361743/
+audio/361744.wav | Real Snap 11.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361744/
+audio/361745.wav | Real Snap 10.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361745/
+audio/361746.wav | Real Snap 1.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361746/
+audio/361747.wav | Real Snap 16.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361747/
+audio/361748.wav | Real Snap 15.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361748/
+audio/361749.wav | Real Snap 14.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361749/
+audio/361750.wav | Real Snap 13.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361750/
+audio/361751.wav | Real Snap 18.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361751/
+audio/361752.wav | Real Snap 17.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361752/
+audio/361753.wav | Real Snap 21.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361753/
+audio/361754.wav | Real Snap 20.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361754/
+audio/361755.wav | Real Snap 2.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361755/
+audio/361756.wav | Real Snap 19.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361756/
+audio/361757.wav | Real Snap 25.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361757/
+audio/361758.wav | Real Snap 24.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361758/
+audio/361759.wav | Real Snap 23.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361759/
+audio/361760.wav | Real Snap 22.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361760/
+audio/361761.wav | Real Snap 26.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361761/
+audio/361762.wav | Real Snap 4.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361762/
+audio/361763.wav | Real Snap 3.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361763/
+audio/361764.wav | Real Snap 28.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361764/
+audio/361765.wav | Real Snap 27.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361765/
+audio/361766.wav | Real Snap 8.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361766/
+audio/361767.wav | Real Snap 7.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361767/
+audio/361768.wav | Real Snap 6.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361768/
+audio/361769.wav | Real Snap 5.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361769/
+audio/361770.wav | Real Snap 9.wav | lafashion | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/lafashion/sounds/361770/
+audio/364718.wav | finger-snap-stereo-01.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364718/
+audio/364719.wav | finger-snap-mono-03.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364719/
+audio/364720.wav | finger-snap-mono-02.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364720/
+audio/364721.wav | finger-snap-mono-01.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364721/
+audio/364722.wav | finger-snap-stereo-05.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364722/
+audio/364724.wav | finger-snap-stereo-03.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364724/
+audio/364725.wav | finger-snap-stereo-02.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364725/
+audio/364726.wav | finger-snap-stereo-07.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364726/
+audio/364727.wav | finger-snap-stereo-06-triple.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364727/
+audio/364728.wav | finger-snap-stereo-09.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364728/
+audio/364729.wav | finger-snap-stereo-08-triple.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364729/
+audio/364730.wav | finger-snap-stereo-10.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364730/
+audio/364731.wav | finger-snap-stereo-12.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364731/
+audio/364732.wav | finger-snap-stereo-11.wav | newagesoup | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/newagesoup/sounds/364732/
+audio/86661.wav | FINGER SNAPS LOOP 8BARS 100BPM.wav | sandyrb | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/sandyrb/sounds/86661/
+audio/125548.wav | typing.wav | krissyeliot | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/krissyeliot/sounds/125548/
+audio/12832.wav | crash - 04.wav | schluppipuppie | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/schluppipuppie/sounds/12832/
+audio/148325.wav | Door1.wav | Shapeshifter242 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Shapeshifter242/sounds/148325/
+audio/173018.wav | wood door.wav | ninebilly | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ninebilly/sounds/173018/
+audio/177470.wav | Tape Start | unfa | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/unfa/sounds/177470/
+audio/193834.wav | Door Knock - 18.wav | Ligidium | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Ligidium/sounds/193834/
+audio/201739.wav | GALLE_Florian_2013_2014_son5.wav | univ_lyon3 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/univ_lyon3/sounds/201739/
+audio/219587.wav | Light Metal Gate Close | qubodup | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/qubodup/sounds/219587/
+audio/232923.wav | Knocking On Door.mp3 | bmusic92 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/bmusic92/sounds/232923/
+audio/237405.wav | House Door Closing Interior | squareal | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/squareal/sounds/237405/
+audio/257259.wav | Typing on a Laptop Keyboard | AndreasWebdev | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/AndreasWebdev/sounds/257259/
+audio/262277.wav | Keycard lock + code.aif | Ubehag | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Ubehag/sounds/262277/
+audio/26914.wav | noises2.aiff | nannygrimshaw | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/nannygrimshaw/sounds/26914/
+audio/269516.wav | Van sliding door close | MrAuralization | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/MrAuralization/sounds/269516/
+audio/31371.wav | door knocks.wav | FreqMan | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/FreqMan/sounds/31371/
+audio/334492.wav | Closing microwave door.wav | SRuelas | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/SRuelas/sounds/334492/
+audio/336888.wav | Gate-Heavy-OpenClose-WAV.wav | Omnisis | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Omnisis/sounds/336888/
+audio/339352.wav | door shut.wav | afmediaarmstrong | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/afmediaarmstrong/sounds/339352/
+audio/341466.wav | Glas_2.wav | uhm_gravy | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/uhm_gravy/sounds/341466/
+audio/342898.wav | Menu click (hat) | kickhat | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/kickhat/sounds/342898/
+audio/343130.wav | Ticking Clock, A.wav | InspectorJ | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/InspectorJ/sounds/343130/
+audio/344364.wav | Fridge Opening  Closing | amholma | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/amholma/sounds/344364/
+audio/365476.wav | A person coughing | Caitlin_100 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Caitlin_100/sounds/365476/
+audio/370732.wav | door_rattle_04.mp3 | smokenweewALT | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/smokenweewALT/sounds/370732/
+audio/381965.wav | sliding wooden  door close mic follow door scrape slow mic top wheels 2.wav | stiffman | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/stiffman/sounds/381965/
+audio/390976.wav | Door_Shut_Metal_Click_Wide.wav | pointparkcinema | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/pointparkcinema/sounds/390976/
+audio/400699.wav | Typing (Cherry MX Blue Switches) | jameslovescode | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jameslovescode/sounds/400699/
+audio/404477.wav | Glass Clink.wav | Trainscough5407 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Trainscough5407/sounds/404477/
+audio/413272.wav | Door Close | Timmeh515 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Timmeh515/sounds/413272/
+audio/414977.wav | Fingers Tapping Impatiently.m4a | TheScarlettWitch89 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/TheScarlettWitch89/sounds/414977/
+audio/431212.wav | sound - sneeze - homemade.wav | buzzatsea | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/buzzatsea/sounds/431212/
+audio/46971.wav | annoyingcough.wav | stomachache | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/stomachache/sounds/46971/
+audio/57023.wav | slideropen.wav | NoiseCollector | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/NoiseCollector/sounds/57023/
+audio/66876.wav | glass_ding.mp3 | hihirex | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/hihirex/sounds/66876/
+audio/77326.wav | Keyboard01.wav | Kyster | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/Kyster/sounds/77326/
+audio/130327.wav | Awkward Clap | dianadesim | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/dianadesim/sounds/130327/
+audio/139334.wav | aplauso.mp3 | stephiechanel | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/stephiechanel/sounds/139334/
+audio/139972.wav | Crowd.Yay.Applause.25ppl.Short.wav | jessepash | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jessepash/sounds/139972/
+audio/160948.wav | Chipclap01.wav | dragline777 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/dragline777/sounds/160948/
+audio/169233.wav | CROWD YAY.wav | mlteenie | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/mlteenie/sounds/169233/
+audio/190643.wav | Clap01NbH.wav | sieah | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/sieah/sounds/190643/
+audio/208875.wav | Hand Clap | adammusic18 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/adammusic18/sounds/208875/
+audio/244568.wav | Clap-Clean Reverb | young_daddy | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/young_daddy/sounds/244568/
+audio/262660.wav | clap-bathroom-01.wav | rhythmpeople | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/rhythmpeople/sounds/262660/
+audio/333775.wav | The sound of one dude clapping | pfranzen | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/pfranzen/sounds/333775/
+audio/338905.wav | Combo Clap | ToxemicCarton | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ToxemicCarton/sounds/338905/
+audio/33941.wav | Slap.wav | scarbelly25 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/scarbelly25/sounds/33941/
+audio/344962.wav | loud/strong Hand Clap.mp3 | ezequielTM | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/ezequielTM/sounds/344962/
+audio/345325.wav | applause01.wav | markkuyp | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/markkuyp/sounds/345325/
+audio/347033.wav | 01 small group clapping - theatre XY mics.wav | gladkiy | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/gladkiy/sounds/347033/
+audio/354056.wav | BaseballGameApplause.wav | eeease | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/eeease/sounds/354056/
+audio/361601.wav | cl@p2.mp3 | PearceL | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/PearceL/sounds/361601/
+audio/383201.wav | Slap - Cartoony | AdminMP | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/AdminMP/sounds/383201/
+audio/412039.wav | clapping.mp3 | 1477491 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/1477491/sounds/412039/
+audio/412157.wav | High Five.m4a | chancelombardo | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/chancelombardo/sounds/412157/
+audio/424768.wav | Clap.wav | Shroke_Makee | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Shroke_Makee/sounds/424768/
+audio/429919.wav | 16-Aplauso.wav | juan9826 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/juan9826/sounds/429919/
+audio/61288.wav | isaapp1.wav | Kreaton | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Kreaton/sounds/61288/
+audio/80398.wav | Applause.wav | digifishmusic | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/digifishmusic/sounds/80398/
+audio/81202.wav | STUDIO APPLAUSE.wav | vedas | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/vedas/sounds/81202/
+audio/99026.wav | single_clap_1.wav | pj123pj | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/pj123pj/sounds/99026/
+audio/119147.wav | Snap Fingers.wav | esperri | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/esperri/sounds/119147/
+audio/130037.wav | fingers_snapping.wav | MaxDemianAGL | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/MaxDemianAGL/sounds/130037/
+audio/137104.wav | Finger Snap 02 | chaosportal | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/chaosportal/sounds/137104/
+audio/137105.wav | Finger Snap 01 | chaosportal | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/chaosportal/sounds/137105/
+audio/137148.wav | Triple Finger Snap | chaosportal | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/chaosportal/sounds/137148/
+audio/151214.wav | Click / Finger Snap | OwlStorm | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/OwlStorm/sounds/151214/
+audio/176153.wav | Snap Fingers | retropttam | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/retropttam/sounds/176153/
+audio/221942.wav | Snapping fingers | sonsdebarcelona | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/sonsdebarcelona/sounds/221942/
+audio/236798.wav | mySound-49GR-Farsad.wav | thecityrings | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/thecityrings/sounds/236798/
+audio/257915.wav | snapping fingers 3.wav | erikschenkel | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/erikschenkel/sounds/257915/
+audio/257916.wav | snapping fingers 2.wav | erikschenkel | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/erikschenkel/sounds/257916/
+audio/257918.wav | snap certain times.wav | erikschenkel | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/erikschenkel/sounds/257918/
+audio/319811.wav | Finger snap 2 | zmobie | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/zmobie/sounds/319811/
+audio/319812.wav | Finger snap 1 | zmobie | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/zmobie/sounds/319812/
+audio/336938.wav | fingerhandclick2.wav | shnur_ | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/shnur_/sounds/336938/
+audio/412159.wav | Snapping.m4a | chancelombardo | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/chancelombardo/sounds/412159/
+audio/425670.wav | Fingersnapping.wav | 377434 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/377434/sounds/425670/
+audio/426255.wav | Finger Snap.m4a | Clurky | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/Clurky/sounds/426255/
+audio/50758.wav | Snapping Fingers.wav | RutgerMuller | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/RutgerMuller/sounds/50758/
+audio/118515.wav | Windshield_Hit_02.wav | thefsoundman | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/thefsoundman/sounds/118515/
+audio/171636.wav | Walking | SoundDawg101 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/SoundDawg101/sounds/171636/
+audio/216010.wav | Waiting for the Elevator.wav | brainwaves8 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/brainwaves8/sounds/216010/
+audio/260951.wav | Spacebar | JdeB90 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/JdeB90/sounds/260951/
+audio/378742.wav | Knocking Door 2 | MonkeyFacebook532 | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/MonkeyFacebook532/sounds/378742/
+audio/387177.wav | Smashing a glass | pfranzen | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/pfranzen/sounds/387177/
+audio/407637.wav | Vintage Doorbell Buzz | jph298 | http://creativecommons.org/publicdomain/zero/1.0/ | https://freesound.org/people/jph298/sounds/407637/
+audio/427245.wav | 31) Fire part 2 | GET_Accel | http://creativecommons.org/licenses/by/3.0/ | https://freesound.org/people/GET_Accel/sounds/427245/

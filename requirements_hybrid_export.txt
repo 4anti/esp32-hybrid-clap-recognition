@@ -1,0 +1,5 @@
+-r requirements_hybrid.txt
+# Optional conversion environment; inference firmware does not use these packages.
+tensorflow==2.16.1
+keras==3.12.4
+flatbuffers==25.12.19

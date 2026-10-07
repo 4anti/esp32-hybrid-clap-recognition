@@ -1,0 +1,51 @@
+name: Verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  host-tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.10'
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22'
+      - name: Install CPU training and export dependencies
+        run: |
+          python -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements_hybrid_export.txt
+      - name: Audit the checked-out source index
+        run: python tools/audit_publish.py
+      - name: Test portable firmware and real model conversion
+        run: python -m pytest tests -q
+      - name: Test recording and Save behavior
+        run: node --test tests/lab_recording.test.js
+
+  firmware-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: arduino/setup-arduino-cli@7ef629dcdf0f458ab7ae83149d629443deac6eac # v2.0.0
+        with:
+          version: '1.5.1'
+      - name: Install the tested ESP32 board package
+        run: |
+          arduino-cli core update-index --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli core install esp32:esp32@3.3.11 --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+      - name: Configure synthetic deployment values
+        run: cp clap_double/clap_local.example.h clap_double/clap_local.h
+      - name: Build active AI and DSP fallback
+        run: |
+          arduino-cli compile --fqbn esp32:esp32:esp32 --jobs 4 --build-property 'compiler.cpp.extra_flags=-DCLAP_ENABLE_AI=1 -DCLAP_AI_SHADOW=0' clap_double
+          arduino-cli compile --fqbn esp32:esp32:esp32 --jobs 4 --build-property 'compiler.cpp.extra_flags=-DCLAP_ENABLE_AI=0 -DCLAP_AI_SHADOW=1' clap_double
