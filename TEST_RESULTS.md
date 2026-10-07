@@ -76,17 +76,63 @@ before scanning, and restores discovery after Wi-Fi loss/reconnection. The
 network recovery functions and parser are covered by actual-body native tests;
 allocation-failure and real driver behavior are not fault-injected on hardware.
 
-The final active firmware **compiled successfully**: **1,161,072 program bytes
+The final active firmware **compiled and uploaded successfully**, with flash
+hash verification: **1,161,072 program bytes
 (88%)**, **65,912 static RAM bytes**. Its binary SHA256 is
 `bd4c2721c7848f6a87f3ff37597b2760c67c7e6e477db6d99b6dd6f0ce326273`.
 All 13 canonical sketch files were copied to the Arduino sketch directory and
 hash-verified, preserving the prior files in a local backup.
 
-At this point USB enumeration finds no connected ESP32. This final build has
-**not yet been uploaded**, and its physical cold-boot, repeated reset, masked
-ping, and long stream tests remain pending. The successful room-model upload
-and short stream results above describe the preceding firmware. Neither mocked
-recovery tests nor an EN reset establish recovery after removal of power.
+Three consecutive checked **EN resets** restored active AI, microphone capture,
+Wi-Fi, and lamp connectivity. Every boot identified the expected room model and
+passed its silence/dipole selftests; the first check also compared outputs against
+desktop TensorFlow INT8 goldens. Arena allocation remains 32,768 bytes, with
+18,076 used; capture occupies 20,072 bytes. Frontend time is 18 ms and selftest
+inference is 115 ms.
+
+| Reset check | Arm after calibration | Stream time | Packets / samples | New gaps / metadata errors / drops | Cumulative drops before collection |
+|---|---:|---:|---:|---:|---:|
+| 1 | 335,072 | 20.00 s | 621 / 317,952 | 0 / 0 / 0 | 960 |
+| 2 | 334,544 | 20.02 s | 620 / 317,440 | 0 / 0 / 0 | 0 |
+| 3 | 351,568 | 20.02 s | 620 / 317,440 | 0 / 0 / 0 | 240 |
+
+AI drop/error and lamp-command drop counters remained zero. The changing arm
+values reflect fresh ambient calibration; the recorded replay at arm 181,296
+above does not independently evaluate these newer thresholds. These quiet
+checks establish startup and audio continuity, not live gesture recall.
+
+A raw authenticated WebSocket upgrade followed by a masked `ping` now receives
+the matching pong. The previously missing-pong failure is resolved in this
+device check. Two controlled viewers then ran concurrently for **55.00 seconds**
+each, with default client keepalive enabled:
+
+| Viewer | Packets | Samples | New gaps / metadata errors / drops |
+|---|---:|---:|---:|
+| 1 | 1,715 | 878,080 | 0 / 0 / 0 |
+| 2 | 1,717 | 879,104 | 0 / 0 / 0 |
+
+The final status confirms two listeners, active AI, live microphone/lamp links,
+and zero AI/command drop/error counters. Heap changed from 85,748 to 82,112 bytes;
+the initially reported minimum heap was 78,876 bytes. Inference time was 114 ms.
+The cumulative PCM-drop counter remained 240 throughout; this is not a claim of
+zero loss since startup. Fifty-five seconds covers the old keepalive failure,
+but does not establish hours of unattended reliability.
+
+The successful three reset checks do not remove power from the external
+microphone. In response to a requested five-second USB unplug/reconnect and
+double-clap/double-snap trial, the user reported **“it works perfectly.”** This
+is positive qualitative feedback; physical power removal was not instrumented,
+and no per-gesture success counts or observation duration were supplied. Real
+access-point/lamp outages and allocation failures are not fault-injected. Raw
+upload/boot/stream evidence stays in ignored `.build/` files.
+
+A final check **without resetting the board** after that feedback collected
+**20.01 seconds, 622 packets, and 318,464 samples**, with zero new gaps,
+metadata errors, or drops. Active AI and microphone/lamp connectivity remained
+live, with AI/command error/drop counters at zero. The freshly calibrated arm
+was 325,728 and the cumulative PCM-drop counter stayed 480 during collection.
+This confirms operating continuity after the reported trial without replacing
+it with another tool-triggered reset.
 
 The PC recording server is separately verified listening on **127.0.0.1**.
 Other LAN devices cannot access its recordings in default mode. LAN recording

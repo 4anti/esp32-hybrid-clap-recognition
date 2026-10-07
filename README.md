@@ -13,23 +13,32 @@ The current local deployment uses an **experimental active AI veto**. Explicit s
 | Evidence | Result | What it establishes |
 |---|---|---|
 | Current room model | 13,527 parameters; 20,872-byte INT8 model | A compact, real three-class deployment artifact |
-| Close bag replay | 7 DSP doubles → 0 at the newer boot threshold; 13 → 0 at the recording threshold | Training-recording fit of the complete detector/model/pairer pipeline |
+| Close bag replay | 7 DSP doubles → 0 at arm 181,296; 13 → 0 at arm 281,840 | Training-recording fit of the complete detector/model/pairer pipeline |
 | Positive replay | 2 clap pairs and 9 snap pairs preserved | Preservation on the supplied training-positive recordings |
-| Held-out bag replay | 0 / 43 and 0 / 27 candidates approved at the newer boot threshold | Rejection on two separate held-out bag recordings |
+| Held-out bag replay | 0 / 43 and 0 / 27 candidates approved at arm 181,296 | Rejection on two separate held-out bag recordings |
 | ESP32 allocation | 32 KiB arena; 18,076 bytes used | The selected model runs without PSRAM |
 | Device computation | About 18 ms frontend + 115 ms inference | Measured worker execution; not lamp response time |
-| Two-viewer stream check | 20.02 seconds; no additional gaps or drops | Short simultaneous audio/network continuity |
+| Two-viewer stream check | Both viewers ran 55.00 seconds with keepalive enabled; no additional gaps or drops | Continuity beyond the earlier approximately 40-second keepalive failure |
+| Recovery-build startup | Three EN/reset checks; active AI, microphone and lamp connection live | Repeatable startup after a reset; physical power removal is a separate test |
+| WebSocket keepalive | Matching pong returned to a raw masked ping | The corrected upgrade parser handles the first control frame |
+| Requested USB power-cycle / gesture trial | Positive user report after the requested trial | Qualitative follow-up; physical power removal and gesture counts were not independently instrumented |
 | Automated checks | 123 Python/C++/privacy checks and 10 recording/server checks passed | Verified software paths; [complete validation record](TEST_RESULTS.md) |
 
 The preserved public-data model performed poorly at its conservative threshold: it accepted only **14.11% of clap windows and 30.90% of snap windows**, with **1.35% noise acceptance**. Those failures informed the room-adaptation work. Model size, classification accuracy, training fit, and live reliability are reported separately throughout the documentation. [The experiment history](docs/EXPERIMENT_HISTORY.md) shows the model evolution and unsuccessful attempts alongside the selected result.
 
 ## Architecture
 
-The latest recovery build compiles at **1,161,072 program bytes (88%)** and
-**65,912 static RAM bytes**. It adds bounded stream handshakes and automatic
-startup/lamp recovery. Its upload and physical restart tests are pending because
-the board is currently absent from USB. The device results above belong to the
-preceding room-model firmware; see [the validation record](TEST_RESULTS.md).
+The latest recovery build is uploaded with flash verification at **1,161,072
+program bytes (88%)** and **65,912 static RAM bytes**. It adds bounded stream
+handshakes and automatic startup/lamp recovery. Three EN/reset checks confirmed
+the selected model, inference goldens, active mode and live capture/lamp
+connections. Each collected about 20 seconds without additional audio gaps or
+drops. A raw masked ping now receives its matching pong, and two controlled
+viewers each streamed for 55 seconds with keepalive enabled and no additional
+loss. After being asked to remove and reconnect USB and try a double clap and a
+double snap, the user reported “it works perfectly.” This is a qualitative
+follow-up; physical power removal and gesture counts were not independently
+instrumented. See [the validation record](TEST_RESULTS.md).
 
 ```mermaid
 flowchart LR
@@ -135,7 +144,7 @@ Hardware verification also checks the flashed model hash, synthetic inference go
 - The active room threshold accepts 6.94% of public held-out noise windows, or 6.68% of the combined public/room test-noise set. Its improvement on the supplied room takes does not establish broad noise rejection.
 - Approximately 64 seconds of held-out bag exposure cannot establish false toggles per hour.
 - Quiet streaming and synthetic inference checks establish continuity and plumbing, not live gesture recall or lamp latency.
-- Longer reboot/reconnect stability remains under evaluation, including the recent WebSocket upgrade-parser correction.
+- Three EN/reset checks, a WebSocket ping check and a 55-second two-viewer keepalive check pass. The requested USB power-cycle/gesture trial received a positive user report; independently instrumented cold-start testing and longer reconnect observation remain future work.
 - The current mixed clap/snap pairing policy, microphone placement, and candidate threshold affect behavior. Very quiet or distant gestures can fail before reaching AI.
 
 ## Experiment record and remaining work

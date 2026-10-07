@@ -1,6 +1,6 @@
 # Room-adapted clap and snap model
 
-Trained 6 October 2026; record updated 7 October 2026. The uploaded local test model learns from this ESP32's raw recordings and adds an AI veto to the existing DSP detector. Recorded replay suppresses close-bag false double gestures at two detector arm thresholds while preserving the old clap/snap pairs. Target-device hash, INT8 goldens, memory and short streaming checks pass. A subsequent live trial received a positive qualitative response; counted fresh-gesture accuracy and sustained close-bag rejection remain unmeasured.
+Trained 6 October 2026; record updated 7 October 2026. The uploaded local test model learns from this ESP32's raw recordings and adds an AI veto to the existing DSP detector. Recorded replay suppresses close-bag false double gestures at two detector arm thresholds while preserving the old clap/snap pairs. Target-device hash, INT8 goldens, memory and short streaming checks pass, including three EN/reset checks of the recovery firmware. A subsequent live trial received a positive qualitative response; counted fresh-gesture accuracy and sustained close-bag rejection remain unmeasured.
 
 ## Artifacts and training
 
@@ -83,4 +83,8 @@ Public clap and snap acceptance are **60.58%** and **57.99%**. These window-gate
 ./tools/build_firmware.ps1 -Mode active
 ```
 
-The active build is uploaded, using a 32 KiB arena (18,076 bytes occupied). Device inference takes about 115 ms plus 18 ms frontend work; 20 seconds of streaming with two listeners had no new gaps or drops. These times are not end-to-end lamp latency. Full measurements are in [TEST_RESULTS.md](TEST_RESULTS.md). The approved model header is distributed for deployment; the recordings and training artifacts are excluded. See [the deployment guide](docs/GETTING_STARTED.md) for a fresh board and [reproducibility and privacy](docs/REPRODUCIBILITY_AND_PRIVACY.md) for the included parameters and omitted data.
+The latest recovery firmware is uploaded with flash verification, using the same approved model and a 32 KiB arena (18,076 bytes occupied). All three EN/reset checks reported the expected model hash, matching INT8 synthetic goldens, active AI and live microphone/lamp connections. Their approximately 20-second collections had no additional gaps, metadata errors or drops; startup drop counters are reported separately. The corrected WebSocket handshake also returned a matching pong to a raw masked ping. Two controlled viewers then each streamed for 55.00 seconds with default keepalive enabled and no additional gaps, metadata errors or drops.
+
+After a request to unplug/reconnect USB and try a double clap and a double finger snap, the user replied “it works perfectly.” This follow-up is qualitative: physical power removal was not independently instrumented, and no gesture success counts were supplied. It does not establish universal recognition accuracy or indefinite restart reliability.
+
+Device inference takes about 115 ms plus 18 ms frontend work. These times are not end-to-end lamp latency. Full measurements are in [TEST_RESULTS.md](TEST_RESULTS.md). The approved model header is distributed for deployment; the recordings and training artifacts are excluded. See [the deployment guide](docs/GETTING_STARTED.md) for a fresh board and [reproducibility and privacy](docs/REPRODUCIBILITY_AND_PRIVACY.md) for the included parameters and omitted data.

@@ -177,7 +177,7 @@ Held-out bag exposure totals **64.192 seconds**. All bag recordings together pro
 
 ## 9. Selected room model on the ESP32
 
-The active room model was compiled, uploaded with flash verification, and identified by its exact hash at boot. It fits the standard flash layout and requires no PSRAM.
+The active room model was compiled, uploaded with flash verification, and identified by its exact hash at boot. It fits the standard flash layout and requires no PSRAM. The following table preserves measurements from the preceding active firmware; recovery-build checks are recorded below.
 
 | Device measurement | Result |
 |---|---:|
@@ -199,12 +199,53 @@ The user subsequently reported strong qualitative live improvement. No counted i
 
 The latest completed host suite passed **123 Python/C++/privacy tests**, with one TensorFlow converter warning and no skips. **10 recording/server tests** also passed. Coverage includes actual C++ detector and capture execution, PCM/WebSocket framing, frontend golden parity, source/group split isolation, train-only augmentation, domain weighting, validation calibration scope, provenance-checked warm starts, widening, TensorFlow float/INT8 parity, pairing with vetoes, and publication auditing. C++/Python float feature tolerance is 0.003; INT8 tolerance is one bin. Retained optimized C++ inputs exactly match the full frontend.
 
-The next recovery build adds bounded HTTP handshakes, checked startup allocations,
+The recovery build adds bounded HTTP handshakes, checked startup allocations,
 bounded microphone startup retries, restart after AI initialization failure, and
-saved-address-first lamp recovery. It compiles at **1,161,072 program bytes** and
-**65,912 static RAM bytes**. At the latest check, the ESP32 was absent from USB;
-this build has not been uploaded and its physical restart/ping/long-stream checks
-are pending. The preceding device measurements remain historical evidence.
+saved-address-first lamp recovery. On 7 October 2026 it was uploaded with flash
+verification at **1,161,072 program bytes** and **65,912 static RAM bytes**.
+The firmware binary SHA256 is
+`bd4c2721c7848f6a87f3ff37597b2760c67c7e6e477db6d99b6dd6f0ce326273`.
+
+Three EN/reset checks passed with the unchanged room-v3 model hash, matching
+silence/dipole INT8 goldens, active mode, live I2S capture and lamp connectivity.
+The arena remained 32,768 bytes with 18,076 occupied; candidate capture remained
+20,072 bytes. Synthetic frontend/inference times remained 18/115 ms.
+
+| Recovery-build reset | Collection duration | PCM packets / samples | Startup drop counter | Additional gaps, metadata errors or drops |
+|---|---:|---:|---:|---:|
+| 1 | 20.00 seconds | 621 / 317,952 | 960 | 0 |
+| 2 | 20.02 seconds | 620 / 317,440 | 0 | 0 |
+| 3 | 20.02 seconds | 620 / 317,440 | 240 | 0 |
+
+AI/command drop and error counters stayed zero during these checks. The startup
+PCM drop counters are cumulative values already present before collection, so
+zero additional loss does not imply zero loss since boot. Detector arm values
+were recalibrated at startup to 335,072, 334,544 and 351,568 respectively; the
+earlier replay uses its explicitly recorded thresholds rather than these values.
+
+The raw masked-ping probe now completes its HTTP upgrade and receives a matching
+pong payload, directly exercising the failure found in the longer historical
+stream. A subsequent check kept two controlled viewers connected with default
+WebSocket keepalive enabled:
+
+| Viewer | Duration | PCM packets / samples | Additional gaps, metadata errors or drops |
+|---|---:|---:|---:|
+| 1 | 55.00 seconds | 1,715 / 878,080 | 0 |
+| 2 | 55.00 seconds | 1,717 / 879,104 | 0 |
+
+Both survived the earlier approximately 40-second timeout boundary. The final
+status reported two listeners, live lamp/I2S connections, active AI and zero
+AI/command drops or errors; inference was 114 ms. Available heap was 85,748 bytes
+initially and 82,112 at the final status, with a recorded minimum of 78,876.
+The cumulative PCM drop counter remained 240 at both baseline and end.
+
+The user was then asked to unplug and reconnect USB and try a double clap and a
+double finger snap, and replied “it works perfectly.” This is a positive
+qualitative follow-up to the requested power-cycle/gesture trial. Physical power
+removal was not independently instrumented, and the reply supplied no counted
+gesture results. The automated EN/reset checks preserve power; neither their
+results nor this short user report establish indefinite cold-start reliability
+or a numerical recognition rate.
 
 The next evaluation should hold the model and threshold fixed and record:
 
