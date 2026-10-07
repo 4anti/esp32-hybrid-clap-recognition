@@ -1,5 +1,43 @@
 # Clap Lights
 
+**Turn a smart light on or off with two claps or two finger snaps.**
+
+Clap Lights uses an ESP32 and a small microphone to recognize these gestures and control a compatible smart light. AI helps distinguish your gestures from other sounds. Once set up, it runs on the ESP32 without needing a computer or browser to stay open.
+
+The trained model is included, so you can build your own setup without training an AI first. Start with the [ESP32 setup guide](docs/GETTING_STARTED.md).
+
+## Contents
+
+- [Project documents](#project-documents)
+- [Technical overview](#technical-overview)
+- [Current status](#current-status)
+- [Architecture](#architecture)
+- [What is implemented](#what-is-implemented)
+- [Hardware and software](#hardware-and-software)
+- [Run locally](#run-locally)
+- [Train a public-data baseline](#train-a-public-data-baseline)
+- [Verification](#verification)
+- [Known limits](#known-limits)
+- [Experiment record and remaining work](#experiment-record-and-remaining-work)
+
+## Project documents
+
+These files explain the setup, research, model development, and measured results. Choose a document based on what you want to learn.
+
+| Document | What it covers | Start here if you want to… |
+|---|---|---|
+| [GETTING_STARTED.md](docs/GETTING_STARTED.md) | Hardware, wiring, your own settings, uploading firmware, and first tests. | Build your own clap-controlled light. |
+| [EXPERIMENT_HISTORY.md](docs/EXPERIMENT_HISTORY.md) | The project's evolution, failed models, fixes, and lessons learned. | Understand how the project reached its current version. |
+| [HYBRID_AI_PLAN.md](HYBRID_AI_PLAN.md) | The revised design, audio/model contract, use of both cores, and evaluation plan. | Understand the engineering decisions and original plan's corrections. |
+| [MODEL_STATUS.md](MODEL_STATUS.md) | The earlier public-audio model, its training data, results, and why it stayed in shadow mode. | Compare the original AI baseline with the newer model. |
+| [ROOM_MODEL_STATUS.md](ROOM_MODEL_STATUS.md) | The included room-adapted model, architecture, augmentation, training settings, and recorded replay results. | Study how the current model was trained and where its limits are. |
+| [TEST_RESULTS.md](TEST_RESULTS.md) | Automated tests and real ESP32 upload, memory, timing, restart, and streaming measurements. | See what was tested and what each result establishes. |
+| [REPRODUCIBILITY_AND_PRIVACY.md](docs/REPRODUCIBILITY_AND_PRIVACY.md) | Included and private artifacts, reproducibility limits, local recording access, and publication checks. | Understand what you can reproduce and how recordings stay private. |
+
+For the research story, read **Experiment history → Revised plan → Public baseline → Room model → Test results**. For your own device, begin with **Getting started**.
+
+## Technical overview
+
 **Local double-clap and finger-snap control with an ESP32, continuous audio capture, and an on-device AI verifier.**
 
 Clap Lights combines embedded signal processing, a compact INT8 neural network, a recording and evaluation workflow, and local smart-lamp control. An INMP441 microphone supplies audio to a dual-core ESP32. A lightweight detector proposes sharp sounds; a classifier can reject unsuitable proposals before the double-gesture state machine sends a local Tuya command.
@@ -149,7 +187,7 @@ Hardware verification also checks the flashed model hash, synthetic inference go
 
 ## Experiment record and remaining work
 
-[docs/EXPERIMENT_HISTORY.md](docs/EXPERIMENT_HISTORY.md) records the progression, failed models, fixes, and evidence limits. [TEST_RESULTS.md](TEST_RESULTS.md) contains measured host/device checks. [MODEL_STATUS.md](MODEL_STATUS.md) preserves the public baseline; [ROOM_MODEL_STATUS.md](ROOM_MODEL_STATUS.md) describes the selected local adaptation. [HYBRID_AI_PLAN.md](HYBRID_AI_PLAN.md) documents the corrected design and evaluation protocol.
+The [project documents](#project-documents) provide the full study: the revised plan, model evolution, training results, and measured hardware checks.
 
 The next measurements are counted live clap/snap success by distance and direction, sustained false toggles under ordinary activity, end-to-end lamp latency, and longer reconnect/reboot stability. Independent room-positive test takes are currently absent. The active room threshold improves the supplied-recording fit but increases public-noise acceptance, so the DSP protections remain essential.
 
